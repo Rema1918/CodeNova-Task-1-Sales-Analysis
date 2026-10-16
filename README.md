@@ -1,38 +1,60 @@
-# CodeNova Task 1 – Sales Data Analysis
+# Online Retail Sales Analysis
 
-# Project Overview
-This project analyses the UCI Online Retail dataset to understand sales performance, revenue trends, top-selling products, and country-wise sales.
+## Project Overview
+This project focuses on analyzing retail transaction data to understand sales performance, revenue trends, and customer purchasing patterns. The analysis is performed using Python and data analysis libraries.
 
-# Objectives
-- Analyse monthly and quarterly revenue.
-- Identify top products by revenue.
-- Compare revenue across countries.
-- Calculate key business metrics.
-- Visualise sales trends using charts.
+## Objectives
+- Understand overall sales performance.
+- Analyze monthly revenue trends.
+- Compare quarterly revenue.
+- Identify the top 10 products based on revenue.
+- Identify the top 10 countries based on revenue.
+- Present sales insights using visualizations.
 
-# Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Google Colab
+## Dataset
+The project uses the UCI Online Retail dataset, which contains transactional records from a UK-based online retail store.
 
-# Key Metrics
-- Total revenue
-- Number of orders
-- Unique customers
-- Total units sold
-- Average order value
+**Dataset source:** [UCI Machine Learning Repository – Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail)
 
-# Project Outputs
-- Monthly sales analysis
-- Quarterly sales analysis
-- Top products by revenue
-- Country-wise sales analysis
-- CSV reports, charts, and summary report
+## Tools and Technologies
+- **Python** – data analysis and calculations
+- **Pandas** – data manipulation and aggregation
+- **Matplotlib** – charts and data visualization
+- **Google Colab** – development environment
 
-# Dataset
-Source: UCI Machine Learning Repository – Online Retail  
-https://archive.ics.uci.edu/dataset/352/online+retail
+## Analysis Performed
 
-# Note
-Revenue is calculated as Quantity × UnitPrice. Profit is not calculated because product cost data is unavailable.
+### 1. Monthly Revenue Analysis
+Analyzes revenue across different months to identify sales trends and changes over time.
+
+### 2. Quarterly Revenue Analysis
+Groups revenue by quarter to compare sales performance across different periods.
+
+### 3. Top 10 Products by Revenue
+Identifies the ten products generating the highest revenue.
+
+### 4. Top 10 Countries by Revenue
+Compares revenue across countries and identifies the ten highest-revenue markets.
+
+## Project Workflow
+1. Load the retail dataset.
+2. Inspect and prepare the data for analysis.
+3. Calculate revenue and aggregate sales information.
+4. Perform monthly and quarterly analysis.
+5. Rank products and countries by revenue.
+6. Generate visualizations to communicate findings.
+
+## Key Learning Outcomes
+- Data manipulation using Pandas
+- Grouping and aggregating transaction data
+- Revenue analysis using Python
+- Ranking products and countries
+- Visualizing business data
+
+## Project Files
+- `Task1_Sales_Data_Analysis.ipynb` – analysis notebook
+- `Task1_Output.zip` – project outputs
+
+## Conclusion
+This project demonstrates how Python can be used to analyze retail transaction data, examine revenue trends, and identify top-performing products and countries.
+
